@@ -1,9 +1,7 @@
-import ai from "./ai.png";
-import fileIcon from "./file.png";
-import swatch from "./swatch.png";
-import download from "./download.png";
+import fileIcon from './Icons/File.svg';
+import paletteIcon from './Icons/Palette.svg';
 
-import logoShirt from "./logo-tshirt.png";
-import stylishShirt from "./stylish-tshirt.png";
+import logoShirt from './Icons/Brush.svg';
+import stylishShirt from './Icons/ColorFill.svg';
 
-export { ai, fileIcon, swatch, download, logoShirt, stylishShirt };
+export { fileIcon, paletteIcon, logoShirt, stylishShirt };

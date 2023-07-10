@@ -17,7 +17,7 @@ const FilePicker = ({ file, setFile, readFile }) => {
           Upload File
         </label>
         <p className='mt-2 text-gray-500 text-xs truncate'>
-          {file === '' ? 'No file selected' : file.name}
+          {file === '' ? 'No file uploaded.' : file.name}
         </p>
       </div>
       <div className='mt-4 flex flex-wrap gap-3'>
@@ -29,7 +29,7 @@ const FilePicker = ({ file, setFile, readFile }) => {
         />
         <CustomButton
           type='filled'
-          title='Full'
+          title='Texture'
           handleClick={() => readFile('full')}
           customStyles='text-xs'
         />

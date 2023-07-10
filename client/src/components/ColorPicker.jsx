@@ -12,7 +12,7 @@ const ColorPicker = () => {
         color={snap.color}
         disableAlpha
         onChange={(color) => (state.color = color.hex)}
-        // presetColors={['#000', '#444']}
+        presetColors={[]}
       />
     </div>
   );

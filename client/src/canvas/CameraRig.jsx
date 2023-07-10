@@ -1,6 +1,6 @@
 import { useFrame } from '@react-three/fiber';
 import { easing } from 'maath';
-import React, { useRef } from 'react';
+import { useRef } from 'react';
 import { useSnapshot } from 'valtio';
 
 import state from '../store';

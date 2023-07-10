@@ -1,4 +1,3 @@
-import React from 'react';
 import { Decal, useGLTF, useTexture } from '@react-three/drei';
 import { useFrame } from '@react-three/fiber';
 import { easing } from 'maath';
