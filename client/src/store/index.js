@@ -6,7 +6,7 @@ const state = proxy({
   isLogoTexture: true,
   isFullTexture: false,
   logoDecal: './logo.webp',
-  fullDecal: './texture.jpg',
+  fullDecal: './texture.webp',
 });
 
 export default state;
